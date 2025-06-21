@@ -14,11 +14,11 @@ This is a React-based reservation form for the fictional Mediterranean restauran
 - Confirmation box on form submission
 
 ## 🛠️ Built With
-React.js – SPA and routing
-React Router – Page navigation
-CSS Flexbox/Grid – Responsive layout
-Netlify & GitHub Pages – Deployment
-VS Code – Code editor
+- React.js – SPA and routing
+- React Router – Page navigation
+- CSS Flexbox/Grid – Responsive layout
+- Netlify & GitHub Pages – Deployment
+- VS Code – Code editor
 
 ## 🚀 Live Demo
 GitHub Pages: https://medhasanketh.github.io/little-lemon-capstone/
