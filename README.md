@@ -2,7 +2,7 @@
 
 This is a React-based reservation form for the fictional Mediterranean restaurant **Little Lemon**. Users can book a table with ease, and enjoy a responsive and aesthetically pleasing UI. Built for ease of submission and prsentation of skills for Meta- Front end- capstone project.
 
-##🚀 Features
+## 🚀 Features
 - Mobile responsive.
 - Uses principles of UI/UX.
 - Design Process: You can find User Jouney/Persona
@@ -13,14 +13,14 @@ This is a React-based reservation form for the fictional Mediterranean restauran
 - Clean routing
 - Confirmation box on form submission
 
-##🛠️ Built With
+## 🛠️ Built With
 React.js – SPA and routing
 React Router – Page navigation
 CSS Flexbox/Grid – Responsive layout
 Netlify & GitHub Pages – Deployment
 VS Code – Code editor
 
-##🚀 Live Demo
+## 🚀 Live Demo
 GitHub Pages: https://medhasanketh.github.io/little-lemon-capstone/
 Netlify: Visit Site
 
