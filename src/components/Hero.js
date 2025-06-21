@@ -5,9 +5,9 @@ import { useNavigate } from 'react-router-dom';
 import './Hero.css';
 
 const images = [
-  { src: '/image1.jpg', caption: 'Our Signature Dish' },
-  { src: '/image2.jpg', caption: 'Fresh Ingredients' },
-  { src: '/image3.jpg', caption: 'Authentic Ambience' },
+  { src: process.env.PUBLIC_URL + '/image1.jpg', caption: 'Our Signature Dish' },
+  { src: process.env.PUBLIC_URL + '/image2.jpg', caption: 'Fresh Ingredients' },
+  { src: process.env.PUBLIC_URL + '/image3.jpg', caption: 'Authentic Ambience' }
 ];
 
 const Hero = () => {

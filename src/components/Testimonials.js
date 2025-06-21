@@ -4,31 +4,31 @@ import './Testimonials.css';
 const testimonials = [
   {
     name: 'Steve',
-    image: '/images/steve.jpg',
+    image: process.env.PUBLIC_URL + '/images/steve.jpg',
     rating: 5,
     text: 'Perfect for events. Delicious food and great service, all affordable!',
   },
   {
     name: 'Anna',
-    image: '/images/anna.jpg',
+    image: process.env.PUBLIC_URL + '/images/anna.jpg',
     rating: 4,
     text: 'The ambiance and desserts were incredible!Especially loved the lemon- flavored desserts!',
   },
   {
     name: 'Liam',
-    image: '/images/liam.jpg',
+    image: process.env.PUBLIC_URL + '/images/liam.jpg',
     rating: 5,
     text: 'Authentic Mediterranian taste and great hospitality.',
   },
   {
     name: 'Nina',
-    image: '/images/nina.jpg',
+    image: process.env.PUBLIC_URL + '/images/nina.jpg',
     rating: 5,
     text: 'Beautiful place and exceptional service!',
   },
   {
     name: 'Raj',
-    image: '/images/raj.jpg',
+    image: process.env.PUBLIC_URL + '/images/raj.jpg',
     rating: 4,
     text: 'Loved the home- style Greek Salad and fast delivery!',
   },

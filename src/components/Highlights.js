@@ -5,19 +5,19 @@ const dishes = [
   {
     name: 'Greek Salad',
     price: '$11.99',
-    image: '/images/greeksalad.jpeg',
+    image: process.env.PUBLIC_URL + '/images/greeksalad.jpeg',
     description: 'Salad that lets crunchy vegetables shine with no lettuce or other filler.',
   },
   {
     name: 'Shakshuka',
     price: '$24.99',
-    image: '/images/shakshuka.jpg',
+    image: process.env.PUBLIC_URL + '/images/shakshuka.jpg',
     description: 'Simple combination of simmering tomatoes, onions, garlic, spices, feta and gently poached eggs.',
   },
   {
     name: 'Lemon dessert',
     price: '$8.99',
-    image: '/images/lemoncake.jpeg',
+    image: process.env.PUBLIC_URL + '/images/lemoncake.jpeg',
     description: 'With delicate, lemon cake layers, filled with a zesty lemon curd',
   },
 ];

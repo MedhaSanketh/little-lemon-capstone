@@ -18,8 +18,8 @@ export default function AboutUs() {
         </div>
         <div className="about-images">
           <div className="image-wrapper">
-            <img src="/images/jamal.jpg" alt="Chef 1" className="about-image top-image" />
-            <img src="/images/elena.jpg" alt="Chef 2" className="about-image bottom-image" />
+            <img src={process.env.PUBLIC_URL + "/images/jamal.jpg"} alt="Chef 1" className="about-image top-image" />
+            <img src={process.env.PUBLIC_URL + "/images/elena.jpg"} alt="Chef 2" className="about-image bottom-image" />
           </div>
         </div>
       </div>

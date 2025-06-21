@@ -12,7 +12,7 @@ export default function Footer() {
       <div className="footer-content">
         {/* Logo and Contact Info */}
         <div className="footer-section">
-            <img src="/images/logo.png" alt="Little Lemon Logo" className="footer-logo" />
+            <img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="Little Lemon Logo" className="footer-logo" />
         </div>        
         <div className="footer-section">          
           <div className="contact-info">
