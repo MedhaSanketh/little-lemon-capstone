@@ -24,15 +24,11 @@ function Home() {
 
 function App() {
   return (
-    <Router>
-      
-
+    <Router basename="/little-lemon-capstone"> {/* ✅ set basename for GitHub Pages */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/reservations" element={<Reservation />} />
       </Routes>
-
-      
     </Router>
   );
 }
