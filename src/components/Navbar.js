@@ -21,7 +21,7 @@ function Navbar() {
 
       <ul className={`nav-right ${menuOpen ? 'open' : ''}`}>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="#about">About</Link></li>
+        <li><Link to="/some-page">About</Link></li>
         <li><Link to="/menu">Menu</Link></li>
         <li><Link to="/reservations">Reservations</Link></li>
         <li><Link to="/order">Order Online</Link></li>

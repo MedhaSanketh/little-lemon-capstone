@@ -29,12 +29,12 @@ export default function Footer() {
           <h4>Little Lemon</h4>
           <ul className="footer-nav">
             <li><a href="/">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#menu">Menu</a></li>
+            <li><a href="/some-page">About</a></li>
+            <li><a href="/some-page">Menu</a></li>
             <li><Link to="/reservations">Reservations</Link></li>
             
-            <li><a href="#order">Order Online</a></li>
-            <li><a href="#login">Login/Signup</a></li>
+            <li><a href="/some-page">Order Online</a></li>
+            <li><a href="/some-page">Login/Signup</a></li>
           </ul>
         </div>
 

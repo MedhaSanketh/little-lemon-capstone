@@ -39,7 +39,7 @@ export default function Highlights() {
                 <span className="price">{dish.price}</span>
               </div>
               <p className="description">{dish.description}</p>
-              <a href="#" className="delivery">
+              <a href="/some-page" className="delivery">
                 Order Quick Delivery <span role="img" aria-label="scooter">🛵</span>
               </a>
             </div>
