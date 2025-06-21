@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-left">
-        <img src={`${process.env.PUBLIC_URL}/lllogog.jpg`} alt="Little Lemon Logo" className="logo" />
+        <img src={process.env.PUBLIC_URL + "/images/lllogog.jpg"} alt="Little Lemon Logo" className="logo" />
       </div>
 
       <div className="hamburger" onClick={toggleMenu}>
